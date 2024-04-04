@@ -45,7 +45,7 @@ ul {
 .dropdown li a {
   color: white;
   display: block;
-  padding: 10px 20px;
+  padding: 10px 50px;
   text-decoration: none;
 }
 
@@ -321,10 +321,8 @@ nav {
   line-height: 30px;
   letter-spacing: 0.5px;
 }
-.questions-left span {
-  margin-bottom: 50px;
-}
-.questions-left span a {
+.questions-left p a {
+  color: #007bff;
   text-decoration: none;
 }
 
