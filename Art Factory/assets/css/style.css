@@ -5,6 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p {
   color: #4a4a4a;
 }
@@ -19,11 +23,26 @@ p {
 ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .navbar {
   position: relative;
-  z-index: 999;
+  /* z-index: 999; */
+}
+.fixed {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(
+    25deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+  position: fixed;
+  top: 0;
 }
 
 .dropdown ul {
@@ -120,7 +139,7 @@ nav {
   text-transform: uppercase;
 }
 
-.more-button:hover {
+.more__button:hover {
   background-color: #007bff;
   transition: all 0.3s ease 0s;
 }
@@ -176,6 +195,10 @@ nav {
   text-transform: uppercase;
   color: #fff;
 }
+.main__button:hover {
+  background-color: #007bff;
+}
+
 .about__2 h5 {
   font-size: 26px;
   font-weight: 700;
@@ -345,6 +368,10 @@ nav {
 .form__top {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
+}
+.form__top > * {
+  flex: 1;
 }
 .form {
   width: 60%;
