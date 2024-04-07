@@ -20,7 +20,7 @@ p {
   text-transform: uppercase;
 }
 
-ul {
+.navbar ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -427,6 +427,10 @@ textarea::placeholder {
 
 input::placeholder {
   color: #fff;
+}
+.social {
+  list-style: none;
+  display: flex;
 }
 .social li {
   margin: 0 5px;

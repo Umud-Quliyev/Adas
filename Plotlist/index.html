@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img
+            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/white-logo.png"
+            alt=""
+          />
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Listing</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <div class="main__button">
+                <a class="button" href="#"
+                  ><i class="fa fa-plus"></i> Add your Listing</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="banner__img">
+          <div class="container">
+            <div class="title">
+              <div>
+                <h6>Over 36,500+ Active Listings</h6>
+                <h2>Find Nearby Places & Things</h2>
+              </div>
+            </div>
+            <div class="search__form">
+              <select name="area" id="category">
+                <option value="0">All Areas</option>
+                <option value="1">New Village</option>
+                <option value="2">Old Town</option>
+                <option value="3">Modern City</option>
+              </select>
+              <div>
+                <input
+                  type="text"
+                  name="location"
+                  id=""
+                  placeholder="Enter a location"
+                />
+              </div>
+              <select name="area" id="price">
+                <option value="0">Price Range</option>
+                <option value="1">$100-$250</option>
+                <option value="2">$250-$500</option>
+                <option value="3">$500-$1000</option>
+                <option value="4">$1000 or more</option>
+              </select>
+              <div class="search__button">
+                <a href="#"><i class="fa fa-search"></i> Search Now</a>
+              </div>
+            </div>
+          </div>
+          <ul class="categories">
+            <li>
+              <a href="#"
+                ><span class="icon"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-01.png"
+                    alt="Home"
+                /></span>
+                Apartments</a
+              >
+            </li>
+            <li>
+              <a href="listing.html"
+                ><span class="icon"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-02.png"
+                    alt="Food"
+                /></span>
+                Food &amp; Life</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="icon"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-03.png"
+                    alt="Vehicle"
+                /></span>
+                Cars</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="icon"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-04.png"
+                    alt="Shopping"
+                /></span>
+                Shopping</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="icon"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-05.png"
+                    alt="Travel"
+                /></span>
+                Traveling</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="papular__categories">
+          <div class="container">
+            <div class="naccs__title">
+              <h2>Papular Categories</h2>
+              <h6>Check Them Out</h6>
+            </div>
+            <div class="tab">
+              <nav class="taraget_menu">
+                <ul>
+                  <li>
+                    <label>
+                      <input name="target" type="radio" checked />
+                      <span class="active__category">
+                        <span class="icon"
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-01.png"
+                            alt=""
+                        /></span>
+                        Apartments</span
+                      >
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input name="target" type="radio" />
+                      <span class="active__category">
+                        <span class="icon"
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-02.png"
+                            alt=""
+                        /></span>
+                        Food & Life</span
+                      >
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input name="target" type="radio" />
+                      <span class="active__category">
+                        <span class="icon"
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-03.png"
+                            alt=""
+                        /></span>
+                        Cars</span
+                      >
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input name="target" type="radio" />
+                      <span class="active__category">
+                        <span class="icon"
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-04.png"
+                            alt=""
+                        /></span>
+                        Shopping</span
+                      >
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input name="target" type="radio" />
+                      <span class="active__category">
+                        <span class="icon"
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/search-icon-01.png"
+                            alt=""
+                        /></span>
+                        Traveling</span
+                      >
+                    </label>
+                  </li>
+                </ul>
+              </nav>
+              <section id="one" class="target">
+                <div class="active_content">
+                  <div class="left__text">
+                    <h4>One Of The Most Trending Stuffs Right Now!</h4>
+                    <p>
+                      Plot Listing is a responsive Bootstrap 5 website template
+                      that included 4 different HTML pages. This template is
+                      provided by TemplateMo website. You can apply this layout
+                      for your static or dynamic CMS websites.
+                    </p>
+                    <div class="read__button">
+                      <a href="#"><i class="fa fa-eye"></i> Read More</a>
+                    </div>
+                  </div>
+                  <div class="right__img">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-01.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </section>
+              <section id="two" class="target">
+                <div class="left__text">
+                  <h4>Food and Lifestyle category is here</h4>
+                  <p>
+                    You can feel free to download, edit and apply this template
+                    for your website. Please tell your friends about TemplateMo
+                    website.
+                  </p>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Read More</a>
+                  </div>
+                </div>
+                <div class="right__img">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-02.jpg"
+                    alt=""
+                  />
+                </div>
+              </section>
+              <section id="three" class="target">
+                <div class="left__text">
+                  <h4>Best car rentals for your trips!</h4>
+                  <p>
+                    Did you know? You can get the best free HTML templates on
+                    Too CSS blog. Visit the blog pages and explore fresh and
+                    latest website templates.
+                  </p>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Read More</a>
+                  </div>
+                </div>
+                <div class="right__img">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-03.jpg"
+                    alt=""
+                  />
+                </div>
+              </section>
+              <section id="four" class="target">
+                <div class="left__text">
+                  <h4>Shopping List: Images from Unsplash</h4>
+                  <p>
+                    Image credits go to Unsplash website that provides free
+                    stock photos for anyone. Images used in this Plot Listing
+                    template are from Unsplash.
+                  </p>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Read More</a>
+                  </div>
+                </div>
+                <div class="right__img">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-04.jpg"
+                    alt=""
+                  />
+                </div>
+              </section>
+              <section id="five" class="target">
+                <div class="left__text">
+                  <h4>Information and Safety Tips for Traveling</h4>
+                  <p>
+                    You are allowed to use this template for your commercial
+                    websites. You are NOT allowed to redistribute this template
+                    ZIP file on any Free CSS collection websites.
+                  </p>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Read More</a>
+                  </div>
+                </div>
+                <div class="right__img">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-05.jpg"
+                    alt=""
+                  />
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="listing">
+            <div class="listing__item">
+              <div>
+                <img
+                  src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-01.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="listing-item__right">
+                <div class="listing-item__right-top">
+                  <a href="#"><h4>1. First Apartment Unit</h4></a>
+                  <ul class="rate">
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li>(18) Reviews</li>
+                  </ul>
+                </div>
+                <h6>by: Sale Agent</h6>
+                <span class="price"
+                  ><div class="item__icon">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-01.png"
+                      alt=""
+                    />
+                  </div>
+                  $450 - $950 / month with taxes</span
+                >
+                <span class="details">Details: <em>2760 sq ft</em></span>
+                <div class="listing-item__right-bottom">
+                  <ul class="info">
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-02.png"
+                        alt=""
+                      />
+                      4 Bedrooms
+                    </li>
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-03.png"
+                        alt=""
+                      />
+                      4 Bathrooms
+                    </li>
+                  </ul>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="listing__item">
+              <div>
+                <img
+                  src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-02.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="listing-item__right">
+                <div class="listing-item__right-top">
+                  <a href="#"><h4>2. Another House of Gaming</h4></a>
+                  <ul class="rate">
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li>(18) Reviews</li>
+                  </ul>
+                </div>
+                <h6>by: Sale Agent</h6>
+                <span class="price"
+                  ><div class="item__icon">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-01.png"
+                      alt=""
+                    />
+                  </div>
+                  $450 - $950 / month with taxes</span
+                >
+                <span class="details">Details: <em>2760 sq ft</em></span>
+                <div class="listing-item__right-bottom">
+                  <ul class="info">
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-02.png"
+                        alt=""
+                      />
+                      4 Bedrooms
+                    </li>
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-03.png"
+                        alt=""
+                      />
+                      4 Bathrooms
+                    </li>
+                  </ul>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="listing__item">
+              <div>
+                <img
+                  src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-03.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="listing-item__right">
+                <div class="listing-item__right-top">
+                  <a href="#"><h4>3. Secret Place Hidden House</h4></a>
+                  <ul class="rate">
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li>(18) Reviews</li>
+                  </ul>
+                </div>
+                <h6>by: Sale Agent</h6>
+                <span class="price"
+                  ><div class="item__icon">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-01.png"
+                      alt=""
+                    />
+                  </div>
+                  $450 - $950 / month with taxes</span
+                >
+                <span class="details">Details: <em>2760 sq ft</em></span>
+                <div class="listing-item__right-bottom">
+                  <ul class="info">
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-02.png"
+                        alt=""
+                      />
+                      4 Bedrooms
+                    </li>
+                    <li>
+                      <img
+                        src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-icon-03.png"
+                        alt=""
+                      />
+                      4 Bathrooms
+                    </li>
+                  </ul>
+                  <div class="read__button">
+                    <a href="#"><i class="fa fa-eye"></i> Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="about">
+          <div class="logo">
+            <img
+              src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/black-logo.png"
+              alt=""
+            />
+          </div>
+          <p>
+            If you consider that
+            <a href="#">Plot Listing template</a>
+            is useful for your website, please
+            <a href="#">support us</a>
+            a little via PayPal.
+          </p>
+        </div>
+        <div class="helpful__link">
+          <h4>Helpful Links</h4>
+          <div class="links">
+            <div class="links__left">
+              <ul>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Listing</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="links__right">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Awards</a></li>
+                <li><a href="#">Useful Sites</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contact__us">
+          <h4>Contact Us</h4>
+          <p>27th Street of New Town, Digital Villa</p>
+          <div class="contact__numb">
+            <a href="#">010-020-0340</a>
+            <a href="#">090-080-0760</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.
+          <br />
+          Design:
+          <a href="#">TemplateMo</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/e364c2e59c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
