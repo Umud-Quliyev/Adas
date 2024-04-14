@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+  background-color: #edf1fc;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.logo a {
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36.57px;
+  letter-spacing: 0.075em;
+}
+.selected {
+  border-bottom: 3px solid rgba(89, 127, 226, 1);
+}
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header ul li a {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.title {
+  width: 57%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 150px;
+}
+.title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 51.08px;
+  margin-bottom: 35px;
+}
+.title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.68px;
+}
+
+.for__mac {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  width: 405px;
+  height: 278px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.downloads a {
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 25%;
+  border: 4px solid #edf1fc;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.54px;
+}
+
+.for__mac a:hover {
+  background-color: #5980e3;
+  transition: all 0.3s ease 0s;
+}
+
+.downloads {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.downloads i {
+  margin-top: 20px;
+  font-size: 125px;
+}
+
+.for__windows {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 455px;
+  height: 320px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.downloads p {
+  position: absolute;
+  bottom: 15%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.87px;
+  color: rgba(109, 117, 147, 1);
+}
+
+.for__windows a {
+  padding: 15px;
+  border: none;
+  background-color: #5980e3;
+  color: #fff;
+}
+
+.for__linux {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  width: 405px;
+  height: 278px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.for__linux a:hover {
+  background-color: #5980e3;
+  transition: all 0.3s ease 0s;
+}
+
+.download__page {
+  margin-bottom: 70px;
+}
+
+footer {
+  position: relative;
+  background: rgba(226, 231, 250, 1);
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.52px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
