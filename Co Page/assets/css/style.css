@@ -29,12 +29,33 @@ header ul {
   align-items: center;
   gap: 40px;
 }
+header ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header ul li span {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li:hover::before {
+  position: absolute;
+  content: " ";
+  background-color: rgba(89, 127, 226, 1);
+  height: 5px;
+  width: 50px;
+  border-radius: 10px;
+  bottom: 0;
+}
 
 header ul li a {
   color: rgba(0, 0, 0, 1);
   font-weight: 600;
   line-height: 19.5px;
   text-align: left;
+  padding-bottom: 10px;
 }
 
 header {
