@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #707070;
+}
+
+a {
+  color: #38b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d40;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center -450px;
+  background-color: #222;
+  min-height: 375px;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-01.jpg");
+}
+header a {
+  padding: 5px 0 5px 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  padding: 50px 0 16px 0;
+}
+header ul {
+  display: flex;
+  padding: 5px 0 5px 0;
+}
+header ul li a {
+  padding: 8px 30px;
+}
+header ul li a:hover {
+  color: #fff;
+  background-color: #336699;
+  transition: all 0.3s ease;
+}
+header ul li a {
+  color: #fff;
+  font-size: 20px;
+}
+header {
+  padding: 8px 16px;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+}
+
+.title h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.subtitle {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+  line-height: 1.9;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.to__scroll {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin-top: 18%;
+  text-align: center;
+}
+.to__scroll i {
+  color: #fff;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  font-size: 2em;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+
+.nav-colored {
+  background-color: #fff;
+}
+
+.nav-colored a {
+  color: #369;
+}
+.nav-transparent {
+  background-color: transparent;
+}
+
+#whatwedo {
+  padding-top: 80px;
+}
+
+.whatwedo__title h2 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #37a;
+  margin-bottom: 1.5rem;
+}
+
+.whatwedo__title p {
+  color: #707070;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.9;
+}
+
+.whatwedo__title p a:hover {
+  color: #d40;
+}
+
+.whatwedo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.whatwedo__title p a {
+  transition: all 0.3s ease;
+  color: #38b;
+}
+
+.content__box h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+#whatwedo > .container {
+  flex-direction: column;
+}
+
+.content__box {
+  display: flex;
+  flex: 1 0 500px;
+}
+
+.content__box i {
+  font-size: 3em;
+  color: #37a;
+}
+
+.whatwedo h2 {
+  line-height: 1.9;
+  color: #37a;
+  margin-bottom: 1.5rem;
+}
+
+.whatwedo p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.9;
+}
+
+.icons {
+  padding: 0 15px 0 15px;
+}
+.content__desc {
+  padding: 0 15px 0 15px;
+}
+
+.leaern__button {
+  padding: 20px 0 30px 0;
+}
+
+.leaern__button a {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #369;
+  padding: 14px 30px;
+}
+
+.leaern__button a:hover {
+  color: white;
+  background-color: #38b;
+}
+
+#teams {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  color: white;
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center -154px;
+}
+
+#teams > .container {
+  flex-direction: column;
+}
+
+.teams__title {
+  text-align: center;
+}
+.teams__title h2 {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+.teams__title p {
+  max-width: 650px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.team__member img {
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.teams {
+  text-align: center;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.team__member p {
+  text-align: left;
+  line-height: 1.8em;
+  margin: 0 0 1rem;
+}
+
+.team__member span {
+  font-size: 1.1rem;
+  display: block;
+  text-align: right;
+  font-style: italic;
+}
+
+.team__member {
+  width: 25%;
+}
+
+#gallery > .container {
+  flex-direction: column;
+}
+
+#gallery {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.gallery__title {
+  text-align: center;
+}
+.gallery__title h2 {
+  color: #37a;
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.gallery__title p {
+  line-height: 1.9;
+  max-width: 650px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.images {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 120px;
+  gap: 25px;
+}
+
+.images__box {
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.image {
+  background: #4a3753;
+  width: 252px;
+  height: 100%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.35s;
+}
+
+.images__box:hover img {
+  opacity: 0.4;
+}
+
+.text h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1.5em;
+  width: 100%;
+  text-align: left;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.35s;
+}
+
+.text h2 i {
+  color: #fff;
+  font-style: normal;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.text h2 i span {
+  font-weight: 600;
+}
+
+.images__box::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  background: #38c;
+  transition: 0.2s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.images__box:hover::before {
+  visibility: visible;
+  opacity: 1;
+  height: 10px;
+}
+
+.images__box:hover h2 i {
+  opacity: 1;
+}
+
+#contact > .container {
+  flex-direction: column;
+}
+
+#contact {
+  background-attachment: fixed;
+  background-position: center -124px;
+  color: white;
+  background-color: #001828;
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-03.jpg");
+  background-repeat: no-repeat;
+  min-height: 980px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.contact__title h2 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.contact__title p {
+  margin-bottom: 5rem;
+  line-height: 1.9;
+  font-size: 1.2em;
+}
+
+.contact__box {
+  display: flex;
+  width: 100%;
+  flex: 1 0 100%;
+}
+
+form input {
+  margin: 0 0 20px 0;
+  width: 80%;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  overflow: visible;
+}
+
+form textarea {
+  margin: 0 0 20px 0;
+  width: 80%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  overflow: auto;
+  resize: vertical;
+}
+
+form input::placeholder {
+  color: #fff;
+}
+form textarea::placeholder {
+  color: #fff;
+}
+
+form a {
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
+  padding: 8px 32px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+form a:hover {
+  color: white;
+  background-color: #38b;
+}
+
+.navigation ul li {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.navigation ul li a {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul li a i {
+  font-size: 2em;
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+.navigation ul li a span {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+}
