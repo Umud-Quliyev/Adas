@@ -1,0 +1,119 @@
+/* --Head-Start-- */
+.head .head__text {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.head .head__text a {
+  font-size: 1.6rem;
+}
+
+.head .head__text a span {
+  color: var(--color-yellow);
+}
+
+.head .head__img {
+  position: relative;
+  height: 33.8rem;
+  filter: grayscale(100%);
+}
+
+.head .head__img img {
+  object-position: 50% 20%;
+}
+/* --Head-End-- */
+
+/* --Allservices-Start-- */
+.allservices__title {
+  position: relative;
+  top: -7rem;
+  margin-bottom: 10rem;
+}
+
+.allservices .service__card-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6rem;
+}
+
+.allservices .service__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin-bottom: 6rem;
+}
+
+.allservices .service__card .service__card-img {
+  max-width: 47rem;
+  width: 100%;
+  flex: 1 0 40rem;
+}
+
+.allservices .service__card .service__card-text {
+  max-width: 47rem;
+  flex: 1 0 40rem;
+}
+
+.allservices .service__card .service__card-text h2 a {
+  font-size: 4.5rem;
+  color: var(--color-yellow);
+  margin-bottom: 2rem;
+}
+
+.allservices .service__card .service__card-text a {
+  display: block;
+  font-size: 3.2rem;
+}
+
+.allservices .service__card .service__card-text a i {
+  rotate: 45deg;
+  margin-left: 3rem;
+}
+
+/* --Allservice-End-- */
+
+@media screen and (max-width: 900px) {
+  .allservices .service__card .service__card-img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head .head__text {
+    padding: 0 2rem;
+  }
+  .head .head__text a:nth-child(1) {
+    display: none;
+  }
+
+  .head .head__img {
+    height: 17.9rem;
+  }
+
+  .allservices__title {
+    top: -3rem;
+  }
+
+  .allservices .service__card .service__card-text {
+    flex: 1;
+  }
+
+  .allservices .service__card .service__card-img {
+    height: 18.8rem;
+  }
+
+  .allservices .service__card .service__card-text h2 a {
+    font-size: 2.2rem;
+  }
+
+  .allservices .service__card {
+    gap: 3rem;
+  }
+
+  .allservices .service__card .service__card-text a {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+  }
+}

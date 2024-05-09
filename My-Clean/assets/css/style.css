@@ -1,0 +1,80 @@
+:root {
+  --color-yellow: rgba(253, 206, 0, 1);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "h1-h2";
+  src: url(../fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Body-Font";
+  src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  font-family: "Body-Font";
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 12rem;
+  font-family: "h1-h2";
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-family: "h1-h2";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 57.6rem;
+    flex-wrap: wrap;
+  }
+  h1,
+  h2 {
+    font-size: 4.4rem;
+  }
+}

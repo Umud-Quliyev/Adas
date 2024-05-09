@@ -681,6 +681,10 @@ nav ul li a {
   .contact__form {
     padding: 10px;
   }
+
+  .book__images {
+    flex: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {

@@ -1,0 +1,735 @@
+/* --Welcome-Start-- */
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.welcome > .container {
+  display: flex;
+}
+
+.welcome .welcome__text {
+  position: relative;
+  flex: 1;
+  margin-top: 23.5rem;
+  padding-bottom: 22.6rem;
+  z-index: 2;
+}
+
+.welcome .welcome__text h1 {
+  max-width: 74rem;
+  padding-bottom: 3rem;
+}
+
+.welcome .welcome__text p {
+  padding-bottom: 4.4rem;
+  max-width: 37rem;
+}
+
+.welcome .welcome__text .welcome__buttons a {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: -0.015em;
+}
+
+.welcome .welcome__text .welcome__buttons i {
+  font-size: 2.5rem;
+  background-color: var(--color-yellow);
+  color: black;
+  border-radius: 50%;
+  padding: 1.7rem;
+  margin-left: 4rem;
+}
+
+.welcome .welcome__bg {
+  flex: 1;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  max-width: 67rem;
+  filter: grayscale(100%);
+}
+.welcome .welcome__bg .welcome__bg-op {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 0.7) 0%,
+    rgba(14, 14, 14, 0) 59.24%
+  );
+}
+/* --Welcome-End-- */
+
+/* --Customer-Start-- */
+.customer {
+  background-color: var(--color-yellow);
+}
+
+.customer .customer__text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.3rem 0;
+}
+
+.customer .customer__text .client,
+.followers,
+.years {
+  font-family: "h1-h2";
+  text-align: center;
+}
+
+.customer .customer__text h3 {
+  font-size: 7.3rem;
+}
+
+.customer .customer__text p {
+  font-size: 3.6rem;
+}
+/* --Customer-End-- */
+
+/* --About-Start-- */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16rem;
+}
+
+.about .about__text {
+  margin-left: 13.5rem;
+  flex: 1 0 50rem;
+}
+
+.about .about__text .about__desc {
+  margin-left: 10rem;
+}
+
+.about .about__text h1 {
+  color: var(--color-yellow);
+  padding-bottom: 3rem;
+}
+
+.about .about__text p {
+  max-width: 47rem;
+  padding-bottom: 5.9rem;
+}
+
+.about .about__text a {
+  font-size: 3.2rem;
+}
+
+.about .about__text a i {
+  rotate: 135deg;
+  margin-left: 3rem;
+}
+
+.about .about__img {
+  flex: 1;
+  flex-basis: 56rem;
+  max-width: 60.5rem;
+}
+/* --About-End-- */
+
+/* --Services-Start-- */
+.services {
+  margin-top: 16rem;
+}
+
+.services .services__title h1 {
+  color: var(--color-yellow);
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.services .service__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+.services .service__list .left__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5.5rem;
+}
+
+.services .service__list .right__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5.5rem;
+}
+
+.services .service__list .left__arrow i {
+  font-size: 2.5rem;
+  background-color: var(--color-yellow);
+  color: black;
+  border-radius: 50%;
+  padding: 1.7rem;
+}
+
+.services .service__list .right__arrow i {
+  font-size: 2.5rem;
+  background-color: var(--color-yellow);
+  color: black;
+  border-radius: 50%;
+  padding: 1.7rem;
+}
+
+.services .service__list .service {
+  max-width: 30rem;
+  flex: 1;
+  flex-basis: 25rem;
+  width: 100%;
+  height: 39rem;
+  position: relative;
+}
+
+.service-1__bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.services .service__list .selected {
+  max-width: 37rem;
+  width: 100%;
+  height: 39rem;
+}
+
+.services .service__list .service img {
+  position: absolute;
+}
+
+.services .service__list .service::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.services .service__list .selected::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.services .service__list .service .service__desc {
+  background-color: black;
+  width: 100%;
+  z-index: 2;
+  padding: 1.5rem 2rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.services .service__list .selected .service__desc {
+  background-color: transparent;
+}
+
+.services .service__list .service .service__desc p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: center;
+}
+.services .service__list .selected .service__desc p {
+  text-align: start;
+}
+.services .service__list .service .service__desc h4 {
+  font-family: "h1-h2";
+  font-size: 3.2rem;
+}
+
+.services .service__list .service .service__desc a {
+  font-size: 3.2rem;
+}
+
+.services .service__list .service .service__desc a i {
+  rotate: 45deg;
+  margin-left: 3rem;
+}
+/* --Services-End-- */
+
+/* --Products-Start-- */
+.products {
+  margin-top: 30rem;
+}
+
+.products .products__title h1 {
+  color: var(--color-yellow);
+}
+
+.more__button {
+  position: absolute;
+  right: 0;
+}
+
+.more__button a {
+  margin-right: 2rem;
+  font-size: 3.2rem;
+}
+
+.more__button a i {
+  rotate: 135deg;
+}
+
+.products .products__list {
+  margin-top: 6rem;
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+.products .products__list .product {
+  max-width: 28rem;
+}
+
+.products .products__list .product img {
+  height: 24.6rem;
+}
+
+.products .products__list .product h4 {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: "h1-h2";
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.products .products__list .product span {
+  font-size: 2.4rem;
+}
+
+.products .products__list .product p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+/* --Products-End-- */
+
+/* --Cars-Start-- */
+.cars {
+  margin-top: 17rem;
+  padding-bottom: 15rem;
+  overflow-x: auto;
+}
+
+.cars .cars__title {
+  text-align: center;
+}
+
+.cars .cars__title h1 {
+  color: var(--color-yellow);
+}
+
+.cars .cars__list {
+  display: flex;
+  margin-top: 6rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+.cars .cars__list img {
+  max-width: 37rem;
+  height: 26.5rem;
+}
+
+.cars .cars__list h2 {
+  margin-top: 3rem;
+}
+
+.cars .cars__list span {
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+.cars .cars__list p {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  max-width: 27rem;
+}
+/* --Cars-End-- */
+
+/* --Blogs-Start-- */
+.blogs {
+  padding-bottom: 8.5rem;
+  background-color: var(--color-yellow);
+}
+
+.blogs .blogs__title h1 {
+  color: black;
+  padding-top: 5.8rem;
+}
+
+.blogs .blog__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7rem;
+}
+
+.blogs .blog__content .blog__img {
+  max-width: 40rem;
+  width: 100%;
+  height: 28.6rem;
+}
+
+.blogs .blog__content .blog__text {
+  position: relative;
+  max-width: 47rem;
+}
+
+.blogs .blog__content .blog__text .more__button {
+  left: 0;
+}
+
+.blogs .blog__content .blog__text .more__button a {
+  padding: 0;
+  color: black;
+}
+
+.blogs .blog__content .blog__text h2 {
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.blogs .blog__content .blog__text p {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.blogs .blog__content .left__arrow,
+.right__arrow {
+  font-size: 1.8rem;
+}
+/* --Blogs-End-- */
+
+/* --Contact-Start-- */
+.contact {
+  padding-top: 16rem;
+  padding-bottom: 4rem;
+}
+
+.contact .contact__title {
+  text-align: center;
+  margin-bottom: 4.3rem;
+}
+
+.contact .contact__title h1 {
+  color: var(--color-yellow);
+}
+
+.contact .contact__text {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  column-gap: 10rem;
+  row-gap: 4rem;
+}
+
+.contact .contact__text ul {
+  max-width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact .contact__text .location,
+.phone,
+.social,
+.mail {
+  font-size: 1.6rem;
+  max-width: 33rem;
+  gap: 5rem;
+  width: 100%;
+  display: flex;
+}
+
+.contact .contact__text .phone {
+  max-width: 33rem;
+  gap: 5rem;
+}
+
+.contact .contact__text .phone span {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .contact__text .social {
+  max-width: 20rem;
+  gap: 4rem;
+}
+
+.contact .contact__text .mail {
+  gap: 4.3rem;
+}
+
+.contact .contact__text i {
+  color: var(--color-yellow);
+  font-size: 2.5rem;
+}
+/* --Contact-End-- */
+
+/* --Responsive-Start-- */
+
+@media screen and (max-width: 1152px) {
+  .blogs .blog__content .left__arrow,
+  .right__arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about .about__text {
+    margin-left: 7rem;
+  }
+
+  .about .about__img {
+    max-width: 100%;
+  }
+
+  .services .service__list .selected {
+    max-width: 100%;
+  }
+
+  .cars .cars__title {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .about .about__img {
+    max-width: 100%;
+  }
+
+  .about .about__text {
+    margin-bottom: 4.6rem;
+  }
+
+  .services .service__list .left__arrow {
+    display: none;
+  }
+
+  .services .service__list .right__arrow {
+    display: none;
+  }
+
+  .products .products__list .product {
+    min-width: 30rem;
+  }
+
+  .cars .cars__list .car {
+    min-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .blogs .blog__content .blog__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome .welcome__bg {
+    max-width: 28rem;
+  }
+
+  .about .about__text {
+    margin-bottom: 4.6rem;
+  }
+
+  .service {
+    padding: 0 2rem;
+  }
+
+  .service .service-2__bg {
+    max-width: 100%;
+  }
+
+  .services .service__list .service {
+    display: none;
+  }
+  .services .service__list .selected {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services .service__list .selected .service__desc {
+    position: inherit;
+    padding: 2.5rem 0;
+  }
+
+  .services .service__list .service img {
+    position: relative;
+  }
+
+  .products {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .welcome {
+    padding-right: 0;
+  }
+
+  .welcome .welcome__bg {
+    max-width: 18rem;
+  }
+  .welcome .welcome__text {
+    max-width: 28rem;
+  }
+  .welcome .welcome__text p {
+    padding-bottom: 3rem;
+  }
+  .welcome .welcome__text .welcome__buttons a {
+    font-size: 2.4rem;
+  }
+  .welcome .welcome__text .welcome__buttons i {
+    padding: 1.3rem;
+  }
+
+  .customer {
+    margin: 0;
+    color: black;
+  }
+  .customer .customer__text {
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .customer .customer__text h3 {
+    font-size: 2.9rem;
+  }
+  .customer .customer__text p {
+    font-size: 1.6rem;
+  }
+  .customer .customer__text > div {
+    width: 100%;
+    max-width: 12rem;
+  }
+
+  .about {
+    padding-top: 6rem;
+  }
+
+  .about .about__text p {
+    max-width: 28rem;
+  }
+
+  .about .about__img {
+    width: 100%;
+    height: 21rem;
+    position: inherit;
+  }
+
+  .about .about__text {
+    flex: 1;
+    padding: 0 2rem;
+    margin-left: 0;
+  }
+  .about .about__text a {
+    font-size: 1.8rem;
+  }
+
+  .about .about__text .about__desc {
+    margin-left: 0;
+  }
+
+  .services {
+    margin-top: 9rem;
+  }
+
+  .services .services__title {
+    margin: 0 2rem;
+  }
+
+  .services .services__title h1 {
+    text-align: left;
+  }
+
+  .services .service__list .left__arrow {
+    display: none;
+  }
+  .services .service__list .right__arrow {
+    display: none;
+  }
+
+  .services .service__list .service img {
+    height: 22.1rem;
+  }
+  .services .service__list .selected .service__desc p {
+    margin-bottom: 4.4rem;
+  }
+  .services .service__list .service .service__desc a {
+    font-size: 1.8rem;
+  }
+
+  .products {
+    margin-top: 8rem;
+  }
+
+  .products .products__list .product {
+    min-width: 20rem;
+  }
+
+  .products .products__title .more__button a {
+    display: none;
+  }
+
+  .cars {
+    padding-bottom: 8rem;
+  }
+
+  .cars .cars__title {
+    text-align: left;
+  }
+  .cars__title .more__button {
+    display: none;
+  }
+  .cars .cars__list .car {
+    min-width: 20rem;
+  }
+
+  .blogs .blog__content {
+    gap: 3rem;
+  }
+  .blogs .blogs__title h1 {
+    margin-bottom: 3rem;
+  }
+
+  .blogs .blog__content .blog__img {
+    height: 19.8rem;
+  }
+  .blogs .blog__text h2 {
+    font-size: 2.2rem;
+  }
+  .blogs .blog__content .blog__text p {
+    margin-bottom: 4.4rem;
+  }
+  .more__button a {
+    font-size: 1.8rem;
+  }
+
+  .contact {
+    padding-top: 8rem;
+  }
+
+  .contact .contact__title {
+    text-align: left;
+  }
+
+  .contact .contact__text .mail {
+    display: none;
+  }
+}

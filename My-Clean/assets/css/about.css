@@ -1,0 +1,122 @@
+/* --Head-Start-- */
+.head .head__text {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.head .head__text a {
+  font-size: 1.6rem;
+}
+
+.head .head__text a span {
+  color: var(--color-yellow);
+}
+
+.head .head__img {
+  position: relative;
+  height: 33.8rem;
+  filter: grayscale(100%);
+}
+
+.head .head__img img {
+  object-position: 50% 50%;
+}
+
+/* --Head-End-- */
+
+/* --AboutUS-Start-- */
+.aboutus {
+  margin-bottom: 16rem;
+}
+
+.aboutus .aboutus__title {
+  position: relative;
+  top: -7rem;
+  margin-bottom: 10rem;
+}
+
+.aboutus .aboutus__right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40rem;
+  gap: 13rem;
+}
+
+.aboutus .aboutus__right .aboutus__desc {
+  margin-left: 23.5rem;
+  flex: 2;
+  max-width: 47rem;
+  flex-basis: 30rem;
+}
+
+.aboutus .aboutus__right .aboutus__img {
+  height: 46rem;
+  flex: 1;
+  flex-basis: 50rem;
+  width: 100%;
+}
+
+.aboutus .aboutus__left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 13rem;
+}
+
+.aboutus .aboutus__left .aboutus__desc {
+  margin-right: 23.5rem;
+  flex: 2;
+  max-width: 47rem;
+  flex-basis: 30rem;
+}
+
+.aboutus .aboutus__left .aboutus__img {
+  height: 46rem;
+  flex: 1;
+  flex-basis: 50rem;
+  width: 100%;
+}
+/* --AboutUS-End-- */
+
+@media screen and (max-width: 1165px) {
+  .aboutus .aboutus__right {
+    margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head .head__text {
+    padding: 0 2rem;
+  }
+  .head .head__text a:nth-child(1) {
+    display: none;
+  }
+  .aboutus {
+    margin-bottom: 6rem;
+  }
+  .aboutus .aboutus__title {
+    top: -3rem;
+    margin-bottom: 3rem;
+  }
+  .aboutus .aboutus__right .aboutus__img {
+    position: inherit;
+    height: 25rem;
+  }
+  .aboutus .aboutus__left .aboutus__img {
+    position: inherit;
+    height: 25rem;
+  }
+  .aboutus .aboutus__right {
+    margin: 0;
+  }
+  .aboutus .aboutus__right .aboutus__desc {
+    margin: 3rem 2rem;
+  }
+  .aboutus .aboutus__left .aboutus__desc {
+    margin: 3rem 2rem;
+  }
+}
