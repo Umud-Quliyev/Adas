@@ -481,6 +481,10 @@
 }
 /* --Contact-End-- */
 
+.map iframe {
+  height: 69rem;
+}
+
 /* --Responsive-Start-- */
 
 @media screen and (max-width: 1152px) {
@@ -577,6 +581,10 @@
   .products {
     margin-top: 20rem;
   }
+
+  .welcome .welcome__bg {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -584,9 +592,6 @@
     padding-right: 0;
   }
 
-  .welcome .welcome__bg {
-    max-width: 18rem;
-  }
   .welcome .welcome__text {
     max-width: 28rem;
   }
