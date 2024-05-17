@@ -1,0 +1,108 @@
+.box {
+  width: 200px;
+  height: 200px;
+  perspective: 500px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(20deg);
+  transition: transform 2s;
+}
+.cube:hover {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.front {
+  transform: translateZ(100px);
+}
+.back {
+  transform: translateZ(-100px) rotateY(180deg);
+}
+.left {
+  transform: translateX(100px) rotateY(-90deg);
+}
+.right {
+  transform: translateX(-100px) rotateY(90deg);
+}
+.top {
+  transform: translateY(-100px) rotateX(90deg);
+}
+.bottom {
+  transform: translateY(100px) rotateX(-90deg);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 630px;
+  min-width: 320px;
+  height: auto;
+  z-index: 2000;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img-modal:target {
+  visibility: visible;
+}
+
+#img-modal:target ~ .md-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+#img-modal .md-content {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.md-content img {
+  width: 100%;
+}
+
+#img-modal:target .md-content {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.md-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  opacity: 0;
+  background: rgba(172, 172, 172, 0.8);
+  transition: all 0.3s;
+}
