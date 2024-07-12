@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/e364c2e59c.js"
@@ -44,6 +46,30 @@
               <li><a href="#team">Our Team</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
+            <div class="mob__language-wrapper">
+              <div class="sl-nav">
+                <ul>
+                  <li class="visited__en">
+                    <i class="fa-solid fa-earth-americas"></i> <b>EN</b>
+                    <div class="triangle"></div>
+                    <ul>
+                      <li>
+                        <i class="sl-flag flag-az"><div></div></i>
+                        <span class="active">AZ</span>
+                      </li>
+                      <li>
+                        <i class="sl-flag flag-ru"><div></div></i>
+                        <span>RU</span>
+                      </li>
+                      <li>
+                        <i class="sl-flag flag-en"><div></div></i>
+                        <span>EN</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="desktop">
             <div class="logo">
@@ -57,9 +83,27 @@
               <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
-          <div class="language">
-            <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
-            <a href="#">En</a>
+          <div class="language-wrapper">
+            <div class="sl-nav">
+              <ul>
+                <li class="visited__en">
+                  <i class="fa-solid fa-earth-americas"></i> <b>EN</b>
+                  <div class="triangle"></div>
+                  <ul>
+                    <li>
+                      <i class="sl-flag flag-az"><div></div></i>
+                      <span class="active">AZ</span>
+                    </li>
+                    <li>
+                      <i class="sl-flag flag-ru"><div></div></i> <span>RU</span>
+                    </li>
+                    <li>
+                      <i class="sl-flag flag-en"><div></div></i> <span>EN</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -94,7 +138,7 @@
               et dolore magnam aliquam quaerat voluptatem.
             </p>
             <div class="about__buttons">
-              <a href="#" class="learn__button">Learn More</a>
+              <a href="./about.html" class="learn__button">Learn More</a>
               <a href="#" class="wathc__button">Watch the video</a>
             </div>
           </div>
@@ -115,7 +159,7 @@
             </p>
             <div class="services__more">
               <div class="services__button">
-                <a href="#" class="learn__button">Learn More</a>
+                <a href="./service.html" class="learn__button">Learn More</a>
               </div>
               <div class="services__arrow">
                 <i class="fa-solid fa-arrow-left left__arrow"></i>
@@ -134,8 +178,7 @@
                   <div class="slide__opacity">
                     <p>Lorem Ipsum</p>
                   </div>
-                  A</a
-                >
+                </a>
               </div>
               <div class="swiper-slide service__card">
                 <a href="#">
@@ -146,8 +189,7 @@
                   <div class="slide__opacity">
                     <p>Lorem Ipsum</p>
                   </div>
-                  A</a
-                >
+                </a>
               </div>
               <div class="swiper-slide service__card">
                 <a href="#">
@@ -158,8 +200,7 @@
                   <div class="slide__opacity">
                     <p>Lorem Ipsum</p>
                   </div>
-                  A</a
-                >
+                </a>
               </div>
               <div class="swiper-slide service__card">
                 <a href="#">
@@ -170,8 +211,7 @@
                   <div class="slide__opacity">
                     <p>Lorem Ipsum</p>
                   </div>
-                  A</a
-                >
+                </a>
               </div>
               <div class="swiper-slide service__card">
                 <a href="#">
@@ -182,8 +222,7 @@
                   <div class="slide__opacity">
                     <p>Lorem Ipsum</p>
                   </div>
-                  A</a
-                >
+                </a>
               </div>
             </div>
           </div>
@@ -193,7 +232,7 @@
         <div class="container">
           <div class="products__text">
             <h2>Products</h2>
-            <a href="#">all products</a>
+            <a href="./products.html">all products</a>
           </div>
           <div class="products__list">
             <a href="#">
@@ -379,14 +418,14 @@
             </div>
           </div>
           <div class="see__more">
-            <a href="#">see more</a>
+            <a href="./team.html">see more</a>
           </div>
         </div>
       </section>
       <section id="contact" class="contact">
         <div class="container">
           <div class="contact__text">
-            <h2>Contact us</h2>
+            <a href="./contact.html"><h2>Contact us</h2></a>
           </div>
           <div class="contact__menu">
             <div class="social">
@@ -424,30 +463,31 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="container">
-          <div class="logo">
-            <a href="#"><h2>LOGO</h2></a>
-          </div>
-          <div class="footer__text">
-            <div class="social__icons">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-            <div class="rules">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Legal terms </a>
-            </div>
-          </div>
-        </div>
-        <div class="copyright__text">
-          <a href="#">©2022 All Right Reserved. Developed by Webcoder</a>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><h2>LOGO</h2></a>
+        </div>
+        <div class="footer__text">
+          <div class="social__icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <div class="rules">
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="#">Legal terms </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright__text">
+        <a href="#">©2022 All Right Reserved. Developed by Webcoder</a>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
+    <script src="./slider.js"></script>
   </body>
 </html>
